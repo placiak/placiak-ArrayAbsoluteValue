@@ -1,4 +1,8 @@
 
+//import java.util.*;
+//import org.junit.Assert;
+import java.lang.Math;
+
 public class ArrayAbsoluteValue {
     /**
      * Given an array of integers 'nums', produce an array of integers composed of the absolute values of all the
@@ -9,6 +13,22 @@ public class ArrayAbsoluteValue {
      * @return the absolute value array of nums.
      */
     public int[] getArrayAbs(int[] nums){
-        return null;
+
+
+        int[] arr = new int[nums.length]; 
+        
+        for(int i = 0; i < nums.length; i++){
+
+            
+            
+            arr[i] = Math.abs(nums[i]);
+
+
+        }
+
+
+        return arr;
+
+        
     }
 }
